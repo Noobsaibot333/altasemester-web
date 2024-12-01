@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+
+.item {
+    border-radius: 100%;
+    width: 30%;
+    aspect-ratio: 1/1;
+    background-color: aqua;
+}
+
+.middle {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    background-color: blue;
+    color: aliceblue;
+    padding: 15px;
+    font-weight: bold;
+    display: flex;
+}
+
