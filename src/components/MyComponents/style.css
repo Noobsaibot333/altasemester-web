@@ -1,0 +1,13 @@
+.item {
+    width: 300px;
+    height: 200px;
+    background-color: aqua;
+    clip-path: polygon(20% 0, 80% 0, 100% 100%, 0% 100%);
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
